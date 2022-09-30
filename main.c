@@ -3,7 +3,8 @@
 void print(void);
 void main(void)
 {
+	int z=10;
 	int x = y;
 	print();
-	printf("%d",x);
+	printf("%d %d",x,z);
 }
